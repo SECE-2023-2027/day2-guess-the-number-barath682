@@ -1,0 +1,12 @@
+<p id="one">hello</p>
+<button onclick="change()">change</button>
+<script>
+    console.log(document.getElementById("one"))
+    var a=document.getElementById("one")
+    var b=a.textContent
+    function change(){
+    a.textContent="bye"
+    }
+    b="bye"
+    console.log(b)
+</script>

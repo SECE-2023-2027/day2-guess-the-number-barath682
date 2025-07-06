@@ -1,0 +1,34 @@
+<input id="num1"  >
+<input id="num2" >
+<button onclick="res()">add</button>
+<p id="result">result</p>
+<script>
+var box1=document.getElementById("num1")
+var box2=document.getElementById("num2")
+var box3=document.getElementById("result")
+console.log(box1.value)
+var a=Number(box1.value)
+var b=Number(box2.value)
+var c=a+b
+console.log(c)
+function res(){
+    var a=Number(box1.value)
+var b=Number(box2.value)
+var c=a+b
+box3.textContent= c
+}
+
+
+</script>
+<input id="num1">
+<input id="num2">
+<button onclick="res()">Add</button>
+
+<script>
+function res() {
+    var a = Number(document.getElementById("num1").value);
+    var b = Number(document.getElementById("num2").value);
+    var total = a + b;
+    console.log("Total:", total); // 👈 this prints the total in the console
+}
+</script>
